@@ -4,16 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>My Share</title>
+    <title>UniBlog</title>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" href="images/ico.svg">
 
     <script src="https://d3js.org/d3.v6.min.js" defer></script>
     <script src="js/home.js" defer></script>
+    <script src="js/tags.js" defer></script>
+    <script src="js/h.js" defer></script>
 
   </head>
   <body>
+    <header>
+      <div id="page-title">
+        <h1>UniBlog</h1>
+        <h3>O Blog Universitário</h2>
+      </div>
+      <div id="searchDiv"> <input id= "search"> <img id ="lupa" src="images/lupa.svg">  </div>
+      <img id = "header-img" src="images/header.svg">
+    </header>
+    <div id="sub-header">
+      <div id = "sections-buttons"></div>
+    </div>
+
+    <div id='sidebar'>
+      <div id = "leftColumn">
+      </div>
+    </div>
+
+    <div id="content">O resultado da pesquisa irá aparecer aqui.</div>
+
     <div id="app"></div>
   </body>
 </html>
